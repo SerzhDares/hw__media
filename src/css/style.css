@@ -1,0 +1,113 @@
+body {
+    margin: 0 auto;
+    background-color: aliceblue;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+}
+
+.textarea_container {
+    display: flex;
+    justify-content: center;
+}
+
+.post_entry_field {
+    width: 90%;
+    padding: 10px;
+    font-size: 20px;
+    height: 100px;
+    resize: none;
+    border-radius: 5px;
+    margin-bottom: 40px;
+}
+
+.timeline_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px 0;
+}
+
+.text_post {
+    padding: 10px 20px;
+    border: 1px solid black;
+    width: 90%;
+    border-radius: 10px;
+    background-color: rgb(220, 237, 253);
+    font-family: 'Courier New', Courier, monospace;
+    margin-bottom: 15px;
+}
+
+.text_post_created {
+    display: flex;
+    justify-content: flex-end;
+    font-style: italic;
+    font-size: 25px;
+}
+
+.text_post_description,
+.error_window_title {
+    font-size: 30px;
+}
+
+.text_post_coordinates,
+.error_window_description,
+.field_label,
+.form_button {
+    font-size: 20px;
+}
+
+.error_window {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    max-width: 400px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: rgb(232, 237, 238);
+    position: absolute;
+    left: 33%;
+    right: 33%;
+    top: 200px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.field_label {
+    margin-bottom: 10px;
+}
+
+.coordinates_input {
+    padding: 7px;
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+
+.form_button_block {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.form_button {
+    border-radius: 5px;
+    border: 1px solid gray;
+    padding: 5px;
+    min-width: 80px;
+    margin-left: 10px;
+}
+
+.form_button:hover {
+    background-color: rgb(174, 172, 172);
+}
+
+.visible {
+    display: none;
+}
+
+.invalid_text {
+    color: red;
+    margin-bottom: 10px;
+}
